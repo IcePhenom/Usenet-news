@@ -1,0 +1,13 @@
+Simple version of a Usenet server client system
+
+use make to build the project
+bin/ contains the executables
+client: is the client used to access the servers
+serverFile: is the server implemented using file database
+serverMem: is the server implemented using memory database
+
+to run the servers
+./server* "port"
+
+to run the client
+./client "serveraddress" "port"
